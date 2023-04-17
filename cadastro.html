@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste2</title>
+    <link rel="stylesheet" href="./cadastro.css">
+</head>
+
+<body>
+
+    <!-- <header>
+        <div class="divTopo"></div>
+
+        <h4 class="divTopo">Trial1</h4>
+        <h4 class="divTopo">Trial2</h4>
+        <h4 class="divTopo">Trial3</h4>
+        <h4 class="divTopo">Trial4</h4>
+        <h4 class="divTopo">Trial5</h4>
+
+
+    </header>-->
+
+    <div class="form" id="formulario">
+        <form action="">
+            <label>Nome: <input type="text" name="nome" class="input" id="inputNome" placeholder="Digite seu nome.">
+            </label>
+            <label>Estado:
+                <input type="text" name="estado" class="input" id="inputEstado" placeholder="Em qual estado você mora?">
+            </label><br>
+            <label>Telefone:<input name="telefone" class="input" id="inputNumero" placeholder="Digite seu telefone.">
+            </label>
+            <label>Selecione seu nível de ensino <select name="formacao" class="input" id="selectFormacao">
+                    <option value="-">-</option>
+                    <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                    <option value="Ensino médio incompleto">Ensino médio incompleto</option>
+                    <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+                    <option value="4Ensino superior completo">Ensino superior completo</option>
+                </select></label>
+            <label> Profissão:<input type="text" name="profissao" class="input" id="inputProfissao"
+                    placeholder="Qual sua profissão?"></label>
+
+            <button id="botaoSubmit" onclick="novoDado()" type="button">Enviar</button>
+
+        </form>
+    </div>
+
+    <script src="./cadastro.js">    </script>
+
+
+
+</body>
+
+</html>

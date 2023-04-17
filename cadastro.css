@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(to right, #00BFFF, #87CEFA );
+}
+
+.dadosPessoa{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ADD8E6;
+    border-radius: 28px;
+}
+
+.dadoOculto{
+    display: none;
+}
+
+h3{
+    color: black;
+    position:relative;
+}
+
+.botao{
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 0px;
+     cursor: pointer;
+}
+
+.displayVisible{
+    display: block;
+    background-color: red;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 200px 150px 200px;
+    background-color: #363636 ;
+    box-sizing: border-box;
+    padding: 50px 20px 50px 20px;
+    border-radius: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+#inputNome, #inputEstado{
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    padding: 5px;
+    background-color: #565656;
+    color: #fff;
+
+}
+
+#inputNumero, #selectFormacao, #inputProfissao{
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: content-box;
+    padding: 5px;
+    background-color: #565656;
+    color: #fff;
+}
+
+label{
+    color: white;
+}
+
+#botaoSubmit{
+    border-radius: 10px;
+    background-color: orange;
+    box-sizing: content-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#botaoSubmit:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+.mostrarMais{
+    cursor: pointer;
+    font-style: italic;
+}
+
+.mostrarMais:hover{
+    text-decoration: underline;
+}
+
+.seta{
+    font-size: 22px;
+}
