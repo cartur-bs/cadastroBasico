@@ -17,9 +17,9 @@ function novoDado(){
 
 }
 
-
 //cria a div e coloca os dados dentro
 function novoDado2() {
+
 
     //cria nova div
     const novaDiv = document.createElement('div');
@@ -78,13 +78,16 @@ function novoDado2() {
         novoNumero.classList.toggle('dadoOculto');
         novoEnsino.classList.toggle('dadoOculto');
         novaProfissao.classList.toggle('dadoOculto');
-})
+        
+        
+      
+       
 
+})
    const isso = novaDiv.style.cursor = 'pointer'
 
   
 }
-
 //'Mostrar mais' da primeira div
 
 
