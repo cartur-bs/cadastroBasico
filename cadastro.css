@@ -2,6 +2,12 @@ body{
     background-image: linear-gradient(to right, #00BFFF, #87CEFA );
 }
 
+#iconeGithub{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .2rem;
+}
+
 .dadosPessoa{
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +45,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px 200px 150px 200px;
+    margin: 100px 200px 100px 200px;
     background-color: #363636 ;
     box-sizing: border-box;
     padding: 50px 20px 50px 20px;
