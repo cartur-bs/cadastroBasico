@@ -109,3 +109,12 @@ label{
 .seta{
     font-size: 22px;
 }
+
+@media (max-width: 1000px) {
+    .form{
+        margin: 10%;
+    }
+    label{
+        display: block;
+    }
+}
